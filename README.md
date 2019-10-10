@@ -1,5 +1,5 @@
 # CP Midi Control Surface 002 Module Template
- KiCad template for designing extensions to the CP Midi Control Surface 002.
+ KiCad template for designing extension modules for the [CP Midi Control Surface 002](https://github.com/cunabula27/cp_midi_control_surface_002).
 
 ## Directions
 Clone the repository into your local KiCad template folder which you can find via the menu in KiCad&rsquo;s Project page under __Preferences > Configure Paths__ in the line KICAD_USER_TEMPLATE_DIR.
@@ -14,7 +14,7 @@ There's also an initial PCB layout to get you started. All the sockets are in th
 
 ## Available connections
 
-The full size board makes available 71 analogue connections and 24 digital connections - which gives a lot of scope to play with. https://github.com/paradajz/OpenDeck/wiki/Connections lists all the pinouts for possible components and explains how to connect buttons to analogue pins (add a 10k resistor between the button and ground). For the digital pins (encoders/buttons) the net labels in the schematic correspond to the Arduino Mega2560 pins in the wiki.
+The full size board makes available 71 analogue connections and 24 digital connections - which gives a lot of scope to play with. The _[OpenDeck wiki](https://github.com/paradajz/OpenDeck/wiki/Connections)_ lists all the pinouts for possible components and explains how to connect buttons to analogue pins (add a 10k resistor between the button and ground). For the digital pins (encoders/buttons) the net labels in the schematic correspond to the Arduino Mega2560 pins in the wiki.
 
 ## Notes
 
